@@ -1,6 +1,6 @@
 package org.alec.words;
 
-public class Fizz extends Word {
+public class Fizz implements Word {
     @Override
     public String toString() {
         return "Fizz";

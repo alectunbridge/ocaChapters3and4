@@ -1,7 +1,7 @@
 package org.alec.words;
 
 public class Number extends Word{
-    final private Integer i;
+    static final public Integer i;
 
     public Number(Integer i) {
         i = i;
