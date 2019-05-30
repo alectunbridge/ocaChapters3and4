@@ -1,10 +1,10 @@
 package org.alec.words;
 
 public class Number extends Word{
-    private final Integer i;
+    final private Integer i;
 
     public Number(Integer i) {
-        this.i = i;
+        i = i;
     }
 
     @Override

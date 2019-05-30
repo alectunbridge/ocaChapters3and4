@@ -5,8 +5,13 @@ public class FizzBuzz extends Word {
     protected Word buzz;
 
     public FizzBuzz() {
-       fizz = new Fizz();
-       buzz = new Buzz();
+        fizz = null;
+        buzz = null;
+    }
+
+    static {
+        fizz = new Fizz();
+        buzz = new Buzz();
     }
 
     @Override
