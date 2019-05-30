@@ -6,10 +6,15 @@ You have an implementation of `FizzBuzz`, with a `Game` class that has a `main` 
 Unfortunately the author of the code has made more than a few mistakes, it's your job to identify and fix them, as per the below:
 
 * **Don't use an IDE** use a plain text editor such as Atom https://atom.io/
-* List all the variables in the file, and note whether they're instance, class or local.
-* List all the errors you can see in the file
+* List all the errors you can see in the file - there are logical ans stylistic errors, as well as syntactic ones...
 * Once you have a list of all the errors try to correct them - still without using your IDE, or a compiler!
-* When you think you have a correct submission - send it to your mentor for testing.....
+* When you think you have a correct submission - you can test it yourself - be strict with yourself, count how many submissions you make:
+
+From the root of your project issue the following command in the terminal:
+```
+./gradlew run
+```
+The output from trying to compile and run your code should appear in the console.
 
 This exercise is intended to cover some of the following objectives from the OCA book:
 
